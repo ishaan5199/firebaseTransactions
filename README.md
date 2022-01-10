@@ -40,6 +40,11 @@ Data being stored on firestore
 1. ReactJS - bootstrapped with `create-react-app`
 2. Authentication via Firebase Auth and Firestore database for storing transaction info
 
+## Reason for using the above tech stack
+ReactJS - Makes the process of creating a single-app website much easier, coupled with great routing features as well as the plethora of packages available via npm. Proper code splitting via components helps us to reuse them in multiple locations without including the same code in multiple places. High Level of compatibility with various tech stacks.
+
+Firebase - Makes user authentication easier and provides a list of methods for authenticating a user like email signin, google signin etc.. out of the box. Also has 2 database applications Firestore and Realtime Database, I used Firestore as the amount of data to be stored was less and only required simple queries. Has various other features including working with Google Cloud Platform directly.
+
 ## Authors
 Ishaan Mahesh
  
